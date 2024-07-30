@@ -2,7 +2,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: Arial, sans-serif;
-}
+
+  }
 
 /*****************************
  menu css 
@@ -10,7 +11,7 @@ body {
 /* Add a black background color to the top navigation */
 header {
   position: fixed;
-  width: 100%;
+  width: 99%;
 }
 .topnav {
   background-color: #1e1e1e;
@@ -88,12 +89,12 @@ header {
   }
   
   .hero-left h1 {
-    font-size: 4vw;
+    font-size: 5vw;
     margin-bottom: 10px;
   }
   
   .hero-left p {
-    font-size: 3vw;
+    font-size: 4vw;
   }
   
   .hero-right {
@@ -182,6 +183,19 @@ header {
   
   .btn:hover {
     background: #0199a6;
+  }
+  @media (max-width: 468px) {
+    .about-me {
+    flex-direction: column;
+    }
+    .about-left, .about-right {
+      padding: 1rem;
+    }
+    .btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.8rem;
+    }
+    
   }
 
 /***************************************************************
@@ -563,6 +577,8 @@ contact
 
   .contact-info, .contact-form {
       width: 100%;
+      padding: 0rem;
+
   }
 }
 /**********************
