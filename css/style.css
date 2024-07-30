@@ -121,7 +121,16 @@ header {
     .hero-left {
       margin-bottom: 0;
     }
+    .hero-left, .hero-right {
+      padding: 1rem 0;
+    }
+    .hero-left h1 {
+      font-size: 8vw;
+    }
     
+    .hero-left p {
+      font-size: 6vw;
+    }
   }
 /***************************************************
  about me section
